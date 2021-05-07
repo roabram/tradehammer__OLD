@@ -3,12 +3,39 @@
 *::before {
   box-sizing: border-box;
 }
-
+.app {
+  background-color: black;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+  background-color: black;
+}
+
+header {
+  background-color: black;
+}
+
+.hero {
+  background-color: #febe10;
+  border-radius: 3em;
+}
+.resultsSection {
+  margin-top: 3em;
+  background: #24282f;
+  grid-gap: 2em;
+  padding: 5em;
+  display: grid;
+  color: #fff;
+  border-radius: 8em;
+  align-items: center;
+  justify-content: center;
+  max-width: 20em;
+}
+
+main {
+  background-color: #ffd700;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }

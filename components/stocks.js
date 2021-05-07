@@ -1,4 +1,4 @@
-import { createElement } from '../utils /element';
+import { createElement } from '../utils/element';
 
 export function createStockElement({ symbol, open, low, close, volume }) {
   return createElement('div', {
