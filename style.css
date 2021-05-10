@@ -3,9 +3,14 @@
 *::before {
   box-sizing: border-box;
 }
-.app {
+
+:root {
+  --background-color: #110e13;
+}
+html {
   background-color: black;
 }
+
 #app {
   text-align: center;
   margin-top: 60px;
@@ -26,6 +31,7 @@ header {
   grid-gap: 2em;
   padding: 5em;
   display: grid;
+  grid-area: auto;
   color: #fff;
   border-radius: 8em;
   align-items: center;
