@@ -25,23 +25,23 @@ header {
   background-color: #febe10;
   border-radius: 3em;
 }
+
+.stocks-card {
+  display: grid;
+}
 .resultsSection {
   margin-top: 3em;
   background: #24282f;
-  grid-gap: 2em;
   padding: 5em;
-  display: grid;
-  grid-area: auto;
   color: #fff;
   border-radius: 8em;
-  align-items: center;
-  justify-content: center;
   max-width: 20em;
 }
 
 main {
   background-color: #ffd700;
   display: grid;
+  grid-template-rows: auto;
   align-items: center;
   justify-content: center;
 }
